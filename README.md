@@ -1,4 +1,4 @@
-# sysctl-multi-wan
+# /etc/sysctl.conf Multi Wan Config
 Multiple WAN ISP Router /etc/sysctl.conf config for load balancing without failover | Combines all isp speed. 
 
 ```
