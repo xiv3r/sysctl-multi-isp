@@ -8,7 +8,6 @@ net.core.wmem_max=16777216
 net.ipv4.tcp_rmem=4096 87380 8388608
 net.ipv4.tcp_wmem=4096 65536 8388608
 net.ipv4.tcp_fastopen=3
-net.ipv4.tcp_moderate_rcvbuf=1
 
 # Connection Tracking
 net.netfilter.nf_conntrack_max=262144
@@ -21,6 +20,8 @@ net.ipv4.tcp_window_scaling=1
 net.ipv4.tcp_sack=1
 net.ipv4.tcp_fac=1
 net.ipv4.tcp_congestion_control=cubic
+
+# MTU Fragmentation
 net.ipv4.tcp_mtu_probing=1
 net.ipv4.tcp_base_mss=1460
 
@@ -33,6 +34,10 @@ net.ipv4.conf.all.send_redirects=0
 net.ipv4.conf.default.send_redirects=0
 net.ipv4.ip_nonlocal_bind=1
 net.ipv4.conf.all.accept_source_route=1
+
+# MultiPath Routing
+net.ipv4.fib_multipath_hash_policy=1
+net.ipv4.fib_multipath_use_neigh=1
 
 # Socket and Backlog
 net.core.somaxconn=65535
