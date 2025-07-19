@@ -22,6 +22,7 @@ net.ipv4.tcp_sack=1
 net.ipv4.tcp_fac=1
 net.ipv4.tcp_congestion_control=cubic
 net.ipv4.tcp_mtu_probing=1
+net.ipv4.tcp_base_mss=1460
 
 # Routing and Forwarding
 net.ipv4.ip_forward=1
