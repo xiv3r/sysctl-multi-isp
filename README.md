@@ -1,5 +1,8 @@
 # /etc/sysctl.conf Multiple ISP Load Balancing Config
-Edit:`nano /etc/sysctl.conf`
+
+Note: Requires preconfigured multipath routing
+
+## Edit:`nano /etc/sysctl.conf`
 ```
 net.ipv4.ip_forward=1
 net.ipv4.fib_multipath_hash_policy=1
