@@ -15,6 +15,7 @@ net.ipv4.conf.all.accept_redirects=0
 net.ipv4.conf.all.send_redirects=0
 net.core.default_qdisc=fq_codel
 net.ipv4.tcp_fastopen=3
+net.netfilter.nf_conntrack_tcp_loose=1
 ```
 ## Save
 ```
