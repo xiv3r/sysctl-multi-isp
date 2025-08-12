@@ -13,6 +13,8 @@ net.ipv4.tcp_ecn=0
 net.ipv4.tcp_mtu_probing=1
 net.ipv4.conf.all.accept_redirects=0
 net.ipv4.conf.all.send_redirects=0
+net.core.default_qdisc=fq_codel
+net.ipv4.tcp_fastopen=3
 ```
 ## Save
 ```
