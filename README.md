@@ -12,7 +12,6 @@ net.ipv4.conf.all.rp_filter=0
 net.core.default_qdisc=fq_codel
 net.ipv6.conf.all.forwarding=1
 net.ipv4.conf.all.forwarding=1
-net.ipv4.fib_multipath_hash_policy=1
 net.ipv4.conf.default.rp_filter=0
 net.ipv4.conf.all.accept_local=1
 net.ipv4.conf.default.accept_local=1
