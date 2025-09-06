@@ -2,7 +2,18 @@
 
 Note: Requires preconfigured multiple isp wan multipath routing 
 
-## Edit:`nano /etc/sysctl.conf`
+## Access SSH/Telnet
+```
+ssh root@192.168.1.1
+```
+```
+telnet 192.168.168.1.1
+```
+
+## Edit:
+```
+nano /etc/sysctl.conf
+```
 ```
 net.ipv4.ip_forward=1
 net.ipv4.tcp_fastopen=3
