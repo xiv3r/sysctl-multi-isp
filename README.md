@@ -29,3 +29,6 @@ net.ipv4.conf.all.secure_redirects=0
 ```
 sysctl -p
 ```
+<div align="center">
+<img src="https://github.com/xiv3r/sysctl-multi-isp/blob/main/MultiWAN.jpg">
+</div>
